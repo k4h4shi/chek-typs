@@ -1,0 +1,21 @@
+{
+  "name": "chek-typs",
+  "version": "0.0.1",
+  "description": "Simple type checker for plain JavaScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha test/ --recursive --require babel-core/register",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepare": "npm run build"
+  },
+  "keywords": ["type", "check"],
+  "author": "Kotaro Takahashi <kotaro.t@k4h4shi.com> (http://k4h4shi.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

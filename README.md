@@ -1,9 +1,9 @@
-# chek-typs
+# chek-typs [![Build Status](https://travis-ci.org/k4h4shi/chek-typs.svg?branch=master)](https://travis-ci.org/k4h4shi/chek-typs)
 Simple type checkTypeser for plain JavaScript.
 
-inspired by [How to better checkTypes data types in javascript - Webbjocke](https://www.webbjocke.com/javascript-checkTypes-data-types/).
+inspired by [How to better checkTypes data types in javascript - Webbjocke](https://www.webbjocke.com/javascript-check-data-types/).
 ## Usage
-```
+```javascript
 const checkTypes = require('chek-typs');
 
 checkTypes('string', 'hello world'); // => true
